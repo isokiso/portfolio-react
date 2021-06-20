@@ -1,0 +1,85 @@
+@media (min-width: 960px) { 
+    .Works{
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-top: 90px;
+      font-size: 36;
+    }
+  
+    .title{
+      text-align: center;
+    }
+  
+    .toggle-buttons{
+      width: 650px;
+      margin: 50px auto;
+      display: flex;
+    }
+  
+    .toggle-button-content{
+      text-align: center;
+      width: 100%;
+      padding: 15px;
+      margin: 5px;
+      /* border: solid 0.5px #444444; */
+      /* box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .1); */
+  
+      font-size: 20px;
+      font-weight: bold;
+  
+      transition: all 0.5s;
+      cursor: pointer;
+    }
+  
+    .toggle-button-content:hover{
+        letter-spacing: 5px;
+        border-bottom: #ED9542 solid 1px;
+    }
+  
+    .toggle-button-selected{
+      background-color: #ED9542;
+      color: white;
+    }
+  }
+  
+  
+  @media screen and (max-width: 960px) { 
+    .Works{
+      margin: 0 auto;
+      font-size: 12;
+    }
+  
+    .title{
+      text-align: center;
+      font-size: 24px;
+    }
+  
+    .toggle-buttons{
+      width: 90%;
+      margin: 30px auto;
+      display: flex;
+    }
+  
+    .toggle-button-content{
+      text-align: center;
+      width: 100%;
+      padding: 15px;
+      border: solid 1px #bebebe;
+  
+      font-size: 14px;
+      font-weight: bold;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+  
+    .toggle-button-content:hover{
+        letter-spacing: 5px;
+    }
+  
+    .toggle-button-selected{
+      background-color: #ED9542;
+      color: white;
+    }
+    
+  }
+  
